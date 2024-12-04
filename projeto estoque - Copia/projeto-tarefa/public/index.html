@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestão de Estoque</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/public/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Gestão de Estoque</h1>
+
+    <!-- Formulário de Cadastro de Produto -->
+    <section id="produto-form">
+        <h2>Cadastrar Produto</h2>
+        <input type="text" id="nome" placeholder="Nome do Produto">
+        <input type="text" id="categoria" placeholder="Categoria">
+        <input type="number" id="quantidade" placeholder="Quantidade">
+        <input type="number" id="preco" placeholder="Preço">
+        <button onclick="adicionarProduto()">Adicionar Produto</button>
+    </section>
+
+    <!-- Lista de Produtos -->
+    <section id="lista-produtos">
+        <h2>Produtos Cadastrados</h2>
+        <div id="produtos-container"></div>
+    </section>
+
+    <!-- Modal de Edição -->
+    <div id="edit-modal" style="display: none;" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="fecharModal()">&times;</span>
+            <h2>Editar Produto</h2>
+            <input type="text" id="edit-nome" placeholder="Nome do Produto">
+            <input type="text" id="edit-categoria" placeholder="Categoria">
+            <input type="number" id="edit-quantidade" placeholder="Quantidade">
+            <input type="number" id="edit-preco" placeholder="Preço">
+            <button class="button2" onclick="salvarEdicao()">Salvar Alterações</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

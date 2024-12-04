@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1730911451649,
+    "nome": "AirPods 4º Geração",
+    "categoria": "Eletrônicos",
+    "quantidade": "67",
+    "preco": "1.200"
+  },
+  {
+    "id": 1730911503973,
+    "nome": "Iphone 16 Pro",
+    "categoria": "Eletrônicos",
+    "quantidade": "34",
+    "preco": "6.500"
+  },
+  {
+    "id": 1730911559261,
+    "nome": "MacBook Pro",
+    "categoria": "Eletrônicos",
+    "quantidade": "23",
+    "preco": "7.000"
+  }
+]
